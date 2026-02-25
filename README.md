@@ -9,14 +9,14 @@
   <img src="https://img.shields.io/badge/Folium-Interactive%20Map-77B829?style=flat-square"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://img.shields.io/badge/Data-NFHS--5%20(2019--21)-0057A8?style=flat-square"/>
   <img src="https://img.shields.io/badge/Coverage-707%20Districts-E63946?style=flat-square"/>
   <img src="https://img.shields.io/badge/Boundaries-Census%202011-6A0572?style=flat-square"/>
   <img src="https://img.shields.io/badge/Clusters-k%20%3D%204-2E86AB?style=flat-square"/>
   <img src="https://img.shields.io/badge/LLM%20Strategies-3%20Prompt%20Designs-FF6B6B?style=flat-square"/>
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square"/>
-</p>
+</p> -->
 
 <p align="center">
   <strong>Study Area:</strong> India - 36 States &amp; Union Territories &nbsp;|&nbsp;
