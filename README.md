@@ -28,36 +28,31 @@
 
 ### The Global Challenge: Data-Rich, Insight-Poor
 
-The twenty-first century has seen an unprecedented accumulation of demographic and health data. National household surveys, civil registration systems, satellite-derived indicators, and administrative records now generate more information about human populations than at any point in history. And yet the persistent challenge in development policy, public health planning, and governance remains the same as it was fifty years ago: **translating data into understanding, and understanding into action.**
+The twenty-first century has seen an unprecedented accumulation of demographic and health data, yet the core challenge remains: translating data into understanding, and understanding into action. The gap is not technical - the tools and data exist. It is communicative. The people who need to act on demographic intelligence rarely speak the language of PCA biplots or index score heatmaps. District magistrates, block-level health officers, and state legislators need narratives, not matrices.
+This problem is sharpest in low- and middle-income nations, precisely where demographic change is most consequential, and where the interpretive infrastructure that higher-income countries take for granted, policy briefs, typologies, evidence syntheses, is thinnest.
+The Demographic Dividend: A Closing Window
 
-This gap is not primarily technical. The analytical tools exist, principal component analysis, geodemographic classification, geospatial visualisation, machine learning. The data exists- more granular, more current, more multidimensional than ever before. The gap is **communicative and interpretive**: the people who need to act on demographic intelligence are rarely the people who can read a heatmap of index scores or interpret a PCA biplot. District magistrates, block-level health officers, state legislators, and community planners need narratives, not matrices. They need to understand what their district *is* demographically, not just what its numbers are.
+As countries transition from high to low fertility, a window of 2-3 decades opens where the working-age population is large relative to dependents
+If this cohort is educated, healthy, and employable, the dividend materialises as accelerated economic growth; if not, the window closes unrealised
+South and Southeast Asia are mid-transition; Sub-Saharan Africa is entering it
+The policy decisions of the next 10-15 years on girls' education, reproductive health, and child nutrition will determine whether the dividend is captured or squandered
+Demographic transition is not national, it plays out at district and block level, and national-level data actively masks this heterogeneity
 
-At a global scale, this problem is acute in precisely the countries where demographic change is most consequential, the low- and middle-income nations of sub-Saharan Africa, South Asia, and Southeast Asia, where the demographic transition is incomplete, uneven, and tied directly to outcomes in health, education, gender equity, and economic growth. These are also the countries most underserved by the interpretive infrastructure — policy briefs, typologies, evidence syntheses — that higher-income countries take for granted.
+India as a Critical Case
 
-### The Demographic Dividend: A Closing Window
+1.4 billion people, 36 states and Union Territories, 740 districts, simultaneously at early, mid, and late transition stages
+Bihar and Meghalaya resemble sub-Saharan Africa circa the 1990s; Tamil Nadu and Kerala are already managing an ageing population
+Despite this, no reproducible, openly published geodemographic typology of Indian districts exists framed around demographic dividend potential
+The UK has the Output Area Classification (OAC); the US has PRIZM and Mosaic; India has no district-level equivalent
 
-Within this global context, the **demographic dividend** represents one of the most consequential and time-limited development opportunities of the coming decades. As countries complete the transition from high to low fertility, there is a period — potentially lasting two to three decades, when the share of working-age population is large relative to dependents. If this cohort is educated, healthy, and employable, the dividend manifests as accelerated economic growth. If the transition occurs without commensurate investment in human capital, the window closes without being realised.
+The LLM Opportunity - and the Risk
 
-South and Southeast Asia are in the midst of this transition. Sub-Saharan Africa is entering it. The policy decisions made in the next ten to fifteen years on girls' education, reproductive health access, child nutrition, and labour market readiness, will determine whether the dividend is captured or squandered. Yet demographic transition is not a national-level phenomenon. It plays out at the district, municipality, and block level, shaped by local history, geography, governance quality, and cultural context. National-level data masks this heterogeneity in ways that actively mislead policy.
+LLMs offer, for the first time, a mechanism to automatically convert statistical cluster profiles into plain-language narratives that policymakers can read and act on
+But LLMs trained on Global North corpora carry embedded assumptions about "development" and "progress", risking narratives that reinforce deficit framings, stigmatise historically disadvantaged regions, or present structural inequality as cultural pathology
+This risk is largely unevaluated, especially for place-based characterisation in Global South contexts
 
-### India as a Critical Case
-
-India is the world's most demographically complex nation: 1.4 billion people, 36 states and Union Territories, 740 administrative districts, and a demographic transition that is simultaneously at early, mid, and late stages depending on where you look. Districts in Bihar and Meghalaya exhibit fertility rates, child marriage prevalence, and female literacy profiles typical of sub-Saharan Africa in the 1990s. Districts in Tamil Nadu and Kerala have completed their transition and are beginning to face the challenges of an ageing population. These two realities coexist within a single nation-state, a single national health system, and a single policy framework.
-
-Despite this extraordinary heterogeneity, **no reproducible, openly published geodemographic typology of Indian districts exists** that classifies them by demographic transition stage and dividend potential. The United Kingdom updates its Output Area Classification (OAC) with each Census, giving researchers, planners, and journalists a shared vocabulary for place-based analysis. The United States has PRIZM, Mosaic, and a range of commercial and academic systems. India — the world's most populous country, with one of the richest public health survey traditions globally has no equivalent at the district level.
-
-### The LLM Opportunity and the Risk
-
-Large Language Models represent a genuinely new capability for bridging the interpretability gap. For the first time, it is technically feasible to take a statistical cluster profile, an object that has meaning only to a trained analyst and automatically convert it into a contextualised, accurate, plain-language narrative that a policymaker can read, quote, and act on. This is not a marginal improvement in communication; it is a qualitative shift in who can access and use demographic intelligence.
-
-But the opportunity comes with proportionate risks. LLMs trained predominantly on Global North text corpora may carry embedded assumptions about what "development" looks like, what "progress" means, and which communities are framed as agents versus subjects. Applied to the demographic characterisation of places, particularly historically disadvantaged districts in countries like India — these models risk producing narratives that reinforce colonial-era deficit framings, stigmatise regions already subject to negative stereotyping, or present structural inequalities as cultural pathologies.
-
-These risks have not been rigorously evaluated. Most existing work on LLM bias focuses on individual-level or demographic-group bias in high-income country contexts. The question of how LLMs characterise *places* — geodemographic clusters, administrative areas, development typologies — in Global South contexts is essentially unanswered.
-
-### What This Project Does
-
-This project responds to both the opportunity and the risk. It builds the **first openly reproducible geodemographic classification of Indian districts framed around demographic dividend potential**, using NFHS-5 (2019–21) data — the most granular national health survey India has ever conducted. It then uses this classification as a test bed for **systematically evaluating LLMs as narrative interpreters of demographic data**, comparing three prompt engineering strategies across dimensions of accuracy, semantic consistency, and language bias. The result is both a substantive contribution to Indian demographic intelligence and a methodological contribution to the emerging field of AI-augmented geodemographic analysis.
-
+What This Project Does
+Builds the first openly reproducible geodemographic classification of Indian districts framed around demographic dividend potential using NFHS-5 (2019-21), then uses it as a test bed to systematically evaluate LLMs as narrative interpreters of demographic data - comparing three prompt engineering strategies across accuracy, semantic consistency, and language bias.
 ---
 
 ## Aims and Objectives
