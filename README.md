@@ -42,7 +42,7 @@ The analysis fuses two independently sourced datasets:
 - **NFHS-5 (2019–21)**: India's most granular national health survey — 707 districts × 109 indicators spanning fertility, maternal health, child nutrition, women's empowerment, and living standards
 - **Census 2011 District Boundaries**: Open-source shapefiles for spatial mapping and interactive cartography
 
-The pipeline proceeds in two stages. The first stage applies a standard geodemographic workflow — **Z-score standardisation → PCA → k-means clustering → index score profiling** — to classify districts into four demographically coherent cluster types. The second stage passes each cluster's statistical profile to **Claude (Anthropic API)** using three distinct prompt engineering strategies, generating plain-language narratives that district planners, health officers, and policymakers can directly use.
+The pipeline proceeds in two stages. The first stage applies a standard geodemographic workflow: **Z-score standardisation → PCA → k-means clustering → index score profiling** — to classify districts into four demographically coherent cluster types. The second stage passes each cluster's statistical profile to **Claude (Anthropic API)** using three distinct prompt engineering strategies, generating plain-language narratives that district planners, health officers, and policymakers can directly use.
 
 The project then systematically evaluates LLM output across three dimensions: **semantic consistency** (do the three strategies describe the same demographic reality?), **language bias** (does theoretical grounding reduce deficit framing?), and **factual accuracy** (does the model correctly identify transition stage?).
 
@@ -74,7 +74,7 @@ The project then systematically evaluates LLM output across three dimensions: **
 
 The twenty-first century has seen an unprecedented accumulation of demographic and health data, yet the core challenge remains: translating data into understanding, and understanding into action. The gap is not technical - the tools and data exist. It is communicative. The people who need to act on demographic intelligence rarely speak the language of PCA biplots or index score heatmaps. District magistrates, block-level health officers, and state legislators need narratives, not matrices.
 
-This problem is sharpest in low- and middle-income nations, precisely where demographic change is most consequential, and where the interpretive infrastructure that higher-income countries take for granted — policy briefs, typologies, evidence syntheses — is thinnest.
+This problem is sharpest in low- and middle-income nations, precisely where demographic change is most consequential, and where the interpretive infrastructure that higher-income countries take for granted- policy briefs, typologies, evidence syntheses- is thinnest.
 
 ### The Demographic Dividend: A Closing Window
 
