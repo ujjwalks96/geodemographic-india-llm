@@ -102,7 +102,6 @@ NFHS is India's implementation of the global DHS (Demographic and Health Survey)
 
 **Variables selected across 5 thematic domains:**
 
-```
 Domain 1 - Age Structure & Fertility
   ├── Population below age 15 years (%)
   ├── Sex ratio of total population (females per 1,000 males)
@@ -131,7 +130,6 @@ Domain 5 - Living Standards & Access
   ├── Households using improved sanitation facility (%)
   ├── Households using clean fuel for cooking (%)
   └── Households with health insurance coverage (%)
-```
 
 ### 2. India District Boundary Shapefile (Census 2011)
 
@@ -149,7 +147,6 @@ Domain 5 - Living Standards & Access
 
 ## Methodology at a Glance
 
-```
 NFHS-5 District Data  (707 districts x 109 variables)
               |
               v
@@ -190,7 +187,7 @@ NFHS-5 District Data  (707 districts x 109 variables)
      ├── Semantic consistency  (cosine similarity)
      ├── Bias audit            (lexical frequency)
      └── Factual accuracy      (V3 vs ground truth)
-```
+
 
 ---
 
@@ -350,7 +347,7 @@ V3's `bias_flag` outputs independently identified BIMARU-region stigmatisation r
 
 ## Project Structure
 
-```
+
 geodemographic-india-llm/
 │
 ├── README.md                                        <- This file
@@ -367,7 +364,7 @@ geodemographic-india-llm/
     ├── cluster_heatmap.png                          <- Full 19-variable index score heatmap
     ├── bias_audit.png                               <- Bias language frequency analysis
     └── semantic_consistency.png                     <- Cross-strategy cosine similarity
-```
+
 
 **Output file guide:**
 
