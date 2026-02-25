@@ -2,8 +2,8 @@
 ### LLM-Augmented Geodemographic Classification of Demographic Dividend Potential in Indian Districts
 
 ![Main Figure](outputs/main_figure.png)
-
-> **Can Large Language Models translate complex demographic cluster profiles into accurate, policy-ready narratives — and can we systematically measure the quality and bias of what they produce?**
+The interactive choropleth (india_geodemographic_interactive.html) renders as a fully functional district-level exploration portal — open it in any browser to hover over all 707 districts and query cluster assignments, indicator values, and state breakdowns in real time.
+> **Can Large Language Models translate complex demographic cluster profiles into accurate, policy-ready narratives- and can we systematically measure the quality and bias of what they produce?**
 
 ---
 
@@ -38,20 +38,20 @@ South and Southeast Asia are mid-transition; Sub-Saharan Africa is entering it
 The policy decisions of the next 10-15 years on girls' education, reproductive health, and child nutrition will determine whether the dividend is captured or squandered
 Demographic transition is not national, it plays out at district and block level, and national-level data actively masks this heterogeneity
 
-India as a Critical Case
+### India as a Critical Case
 
 1.4 billion people, 36 states and Union Territories, 740 districts, simultaneously at early, mid, and late transition stages
 Bihar and Meghalaya resemble sub-Saharan Africa circa the 1990s; Tamil Nadu and Kerala are already managing an ageing population
 Despite this, no reproducible, openly published geodemographic typology of Indian districts exists framed around demographic dividend potential
 The UK has the Output Area Classification (OAC); the US has PRIZM and Mosaic; India has no district-level equivalent
 
-The LLM Opportunity - and the Risk
+### The LLM Opportunity and the Risk
 
 LLMs offer, for the first time, a mechanism to automatically convert statistical cluster profiles into plain-language narratives that policymakers can read and act on
 But LLMs trained on Global North corpora carry embedded assumptions about "development" and "progress", risking narratives that reinforce deficit framings, stigmatise historically disadvantaged regions, or present structural inequality as cultural pathology
 This risk is largely unevaluated, especially for place-based characterisation in Global South contexts
 
-What This Project Does
+### What This Project Does
 Builds the first openly reproducible geodemographic classification of Indian districts framed around demographic dividend potential using NFHS-5 (2019-21), then uses it as a test bed to systematically evaluate LLMs as narrative interpreters of demographic data - comparing three prompt engineering strategies across accuracy, semantic consistency, and language bias.
 ---
 
@@ -87,13 +87,13 @@ To develop, evaluate, and openly publish a reproducible geodemographic classific
 | **Publisher** | International Institute for Population Sciences (IIPS) and ICF, Ministry of Health and Family Welfare, Government of India |
 | **Missing values** | 0 — complete data for all 19 selected variables across all 707 districts |
 
-> **📥 [Download from data.gov.in — NFHS-5 India Districts Factsheet Data (Provisional)](https://www.data.gov.in/catalog/national-family-health-survey-5-nfhs-5-india-districts-factsheet-data-provisional)**  
+> **📥 [Download from data.gov.in- NFHS-5 India Districts Factsheet Data (Provisional)](https://www.data.gov.in/catalog/national-family-health-survey-5-nfhs-5-india-districts-factsheet-data-provisional)**  
 > *India's Open Government Data Platform — official, freely accessible, no login required*
 
-> **📄 [Full NFHS-5 India Report (IIPS)](http://rchiips.org/nfhs/NFHS-5Reports/NFHS-5_INDIA_REPORT.pdf)**  
+> **📄 [Full NFHS-5 India Report](https://dhsprogram.com/pubs/pdf/FR375/FR375.pdf )**  
 > *Complete methodology, questionnaires, and national/state-level findings*
 
-> **🌐 [NFHS-5 District Factsheets Portal (IIPS)](http://rchiips.org/nfhs/districtfactsheet_NFHS-5.shtml)**  
+> **🌐 [NFHS-5 District Factsheets Portal (IIPS)](https://www.nfhsiips.in/nfhsuser/publication.php)**  
 > *State-wise downloadable PDFs and the compiled district factsheet Excel file*
 
 NFHS is India's implementation of the global DHS (Demographic and Health Survey) programme. Round 5 (2019–21) is the most geographically granular national health survey conducted in India to date — the first round to cover all districts — making it the definitive source for sub-national demographic analysis.
@@ -204,7 +204,7 @@ The optimal solution was **k = 4 clusters**, selected by silhouette analysis, cl
 
 ---
 
-### Cluster 0 — *"Transitional Highlands with Unfinished Foundations"* · 117 districts
+### Cluster 0: *"Transitional Highlands with Unfinished Foundations"* · 117 districts
 **States:** Uttar Pradesh · Arunachal Pradesh · Nagaland · Manipur  
 **Stage:** Mid-transition | **Dividend Potential:** Moderate
 
@@ -212,7 +212,7 @@ Adolescent fertility (index 65) and child marriage (index 66) are well below the
 
 ---
 
-### Cluster 1 — *"High Fertility, Low Education Transition Zone"* · 139 districts
+### Cluster 1: *"High Fertility, Low Education Transition Zone"* · 139 districts
 **States:** Bihar · Uttar Pradesh · Jharkhand · Assam  
 **Stage:** Early transition | **Dividend Potential:** Emerging
 
@@ -220,7 +220,7 @@ Child marriage affects **34.5% of women** (index 166). Adolescent fertility is 6
 
 ---
 
-### Cluster 2 — *"Mid-Transition High Institutional Care Districts"* · 211 districts
+### Cluster 2: *"Mid-Transition High Institutional Care Districts"* · 211 districts
 **States:** Madhya Pradesh · Rajasthan · Gujarat · Odisha  
 **Stage:** Mid-transition | **Dividend Potential:** Emerging
 
@@ -228,7 +228,7 @@ Health service delivery is mature: institutional births at 91.7%, modern FP use 
 
 ---
 
-### Cluster 3 — *"Advanced Transition, Persistent Health Gaps"* · 227 districts
+### Cluster 3: *"Advanced Transition, Persistent Health Gaps"* · 227 districts
 **States:** Tamil Nadu · Karnataka · Haryana · Punjab  
 **Stage:** Late transition | **Dividend Potential:** Realised
 
@@ -269,7 +269,7 @@ Three prompt strategies were designed to test different dimensions of LLM capabi
 | **V2 Theory-Grounded** | Embed demographic transition theory; request stage identification, policy priorities, cluster label | Does theory-grounding improve accuracy and policy relevance? |
 | **V3 Structured + Bias-Aware** | Request structured JSON with 10 fields including a `bias_flag` asking the model to identify stereotypes its description might reinforce | Does structured prompting reduce hallucination and surface ethical risks? |
 
-**Sample — Cluster 1 comparison:**
+**Sample- Cluster 1 comparison:**
 
 *V1 Basic:* "These 139 districts, spanning Bihar, Uttar Pradesh, Jharkhand, and Assam, represent a concentration of interconnected demographic and public health challenges. Child marriage affects more than one in three women (34.5%), at 66% above the national average..."
 
@@ -383,25 +383,25 @@ geodemographic-india-llm/
 
 ## How to Reproduce
 
-### Step 1 — Download the data
+### Step 1- Download the data
 
-> **📥 [NFHS-5 India Districts Factsheet — data.gov.in](https://www.data.gov.in/catalog/national-family-health-survey-5-nfhs-5-india-districts-factsheet-data-provisional)**
+> **📥 [NFHS-5 India Districts Factsheet- data.gov.in](ttps://www.data.gov.in/catalog/national-family-health-survey-5-nfhs-5-india-districts-factsheet-data-provisional)**
 
 Save the file as `data/NFHS_5_India_Districts_Factsheet_Data.xls`
 
-### Step 2 — Get an Anthropic API key
+### Step 2- Get an Anthropic API key
 
 > **🔑 [console.anthropic.com](https://console.anthropic.com)**
 
 Create an account and add credits. Estimated cost for this project: **$0.10–0.25 USD** (12 LLM calls total).
 
-### Step 3 — Open in Google Colab
+### Step 3- Open in Google Colab
 
 > **📓 [colab.research.google.com](https://colab.research.google.com)**
 
 Upload `geodemographic_india_llm.ipynb` → add key via **Colab → Secrets (🔑) → `ANTHROPIC_API_KEY`**
 
-### Step 4 — Run all cells
+### Step 4- Run all cells
 
 Estimated runtime: **45–60 minutes** on Colab Pro. Cell 25 triggers automatic download of all outputs.
 
@@ -418,15 +418,36 @@ pip install anthropic geopandas mapclassify folium sentence-transformers \
 
 ## References
 
-Bloom, D. E., & Williamson, J. G. (1998). Demographic transitions and economic miracles in emerging Asia. *The World Bank Economic Review*, 12(3), 419–455.
+## 1. Demographic Transition and the Dividend
+Bloom, D. E., Canning, D., & Sevilla, J. (2003). The demographic dividend: A new perspective on the economic consequences of population change. RAND Corporation. https://doi.org/10.7249/MR1274 RAND
+Bloom, D. E., Canning, D., Fink, G., & Finlay, J. E. (2009). Fertility, female labor force participation, and the demographic dividend. Journal of Economic Growth, 14(2), 79-101.
+Reher, D. S. (2011). Economic and social implications of the demographic transition. Population and Development Review, 37(Supplement), 11-33.
 
-International Institute for Population Sciences (IIPS) and ICF (2021). *National Family Health Survey (NFHS-5), 2019–21: India*. Mumbai: IIPS. [rchiips.org](http://rchiips.org)
+## 2. Geodemographic Classification Methodology
+Vickers, D., & Rees, P. (2007). Creating the UK National Statistics 2001 output area classification. Journal of the Royal Statistical Society: Series A (Statistics in Society), 170(2), 379-403. https://doi.org/10.1111/j.1467-985X.2007.00466.x Oxford Academic
+Singleton, A., & Spielman, S. E. (2014). The past, present, and future of geodemographic research in the United States and United Kingdom. The Professional Geographer, 66(4), 558-567.
+Singleton, A., & Spielman, S. E. (2026). Geodemographics and residential differentiation: A methodological review and future directions for learned representations of the social landscape. Computers, Environment and Urban Systems, 125, 102396.
+Gale, C. G., Singleton, A., Bates, A. G., & Longley, P. A. (2016). Creating the 2011 area classification for output areas (2011 OAC). Journal of Spatial Information Science, 12, 1-31.
 
-Singleton, A., Arribas-Bel, D., Murray, J., & Fleischmann, M. (2022). Estimating generalized measures of local neighbourhood context from multispectral satellite images using a convolutional neural network. *Computers, Environment and Urban Systems*, 95, 101802.
+## 3. Data Source
+International Institute for Population Sciences (IIPS) & ICF. (2021). National Family Health Survey (NFHS-5), 2019-21: India. Ministry of Health and Family Welfare, Government of India. https://dhsprogram.com/pubs/pdf/FR375/FR375.pdf 
+Ministry of Health and Family Welfare & IIPS. (2022). National Family Health Survey-5 (2019-21): India districts factsheet data. Government of India Open Data Platform. https://www.nfhsiips.in/nfhsuser/publication.php
 
-Singleton, A., & Spielman, S. E. (2026). Geodemographics and residential differentiation: A methodological review and future directions for learned representations of the social landscape. *Computers, Environment and Urban Systems*, 125, 102396.
+## 4. LLM Geographic and Demographic Bias
+Manvi, R., Khanna, S., Burke, M., Lobell, D., & Ermon, S. (2024). Large language models are geographically biased. Proceedings of the 41st International Conference on Machine Learning (ICML 2024), pp. 34654-34669. arXiv:2402.02680 arXiv
+Bai, H., et al. (2024). Bias in large language models: Origin, evaluation, and mitigation. arXiv:2411.10915 arXiv
+Faisal, F., & Anastasopoulos, A. (2023). Geographic and geopolitical biases of language models. Proceedings of the 3rd Workshop on Multi-lingual Representation Learning (MRL), Association for Computational Linguistics. https://aclanthology.org/2023.mrl-1.12
 
-Vickers, D., & Rees, P. (2007). Creating the UK National Statistics 2001 output area classification. *Journal of the Royal Statistical Society: Series A*, 170(2), 379–403.
+## 5. Prompt Engineering and LLM Evaluation
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q. V., & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. Advances in Neural Information Processing Systems (NeurIPS), 35, 24824-24837. arXivNeurIPS
+White, J., Fu, Q., Hays, S., Sandborn, M., Olea, C., Gilbert, H., ... & Schmidt, D. C. (2023). A prompt pattern catalog to enhance prompt engineering with ChatGPT. arXiv:2302.11382
+
+## 6. Semantic Similarity and Evaluation
+Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-networks. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pp. 3982-3992. Association for Computational Linguistics. https://aclanthology.org/D19-1410 ACL Anthology
+
+## 7. AI in Development and Policy Communication
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT), pp. 610-623.
+Floridi, L., et al. (2022). An ethical framework for a good AI society: Opportunities, risks, principles, and recommendations. In Ethics, Governance, and Policies in Artificial Intelligence, Springer, pp. 19-39.
 
 ---
 
