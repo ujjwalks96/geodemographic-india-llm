@@ -1,0 +1,18 @@
+# Raw data — download separately from data.gov.in
+data/NFHS_5_India_Districts_Factsheet_Data.xls
+data/*.xls
+data/*.xlsx
+
+# Python / Jupyter cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env

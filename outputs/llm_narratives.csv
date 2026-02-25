@@ -1,0 +1,399 @@
+raw,in_tok,out_tok,error,cluster_id,strategy,profile,parse_error
+"## Cluster 0: District Profile Narrative
+
+These 117 districts, spanning Uttar Pradesh and the north-eastern states of Arunachal Pradesh, Nagaland, and Manipur, present a demographically distinctive profile characterised by relatively strong social indicators alongside notable gaps in maternal and child health service uptake.
+
+Women's literacy stands at 77.6%, with 42% having completed ten or more years of schooling. Child marriage and adolescent fertility rates are well below the national average, suggesting a comparatively favourable environment for girls' education and delayed union. Modern contraceptive use, however, remains modest at 42.6%, accompanied by an unmet family planning need of 13.2% — substantially above the national average.
+
+Full vaccination coverage is markedly high at 170% of the national index, yet child stunting affects nearly one in three children and anaemia remains prevalent among women. Antenatal care and health insurance coverage are considerably below national norms, identifying key priorities for targeted health systems investment in these districts.",436,228,,0,v1_basic,"CLUSTER 0 — NFHS-5 DISTRICT PROFILE
+Districts: 117 | States: Uttar Pradesh, Arunachal Pradesh, Nagaland, Manipur
+Sample districts: Kolasib, Upper Subansiri, Dimapur, Chandel, East Siang
+
+KEY METRICS (cluster mean values):
+  Women literate: 77.6%
+  Women 10+ yrs schooling: 42.0%
+  Child marriage: 13.6%
+  Adolescent fertility: 4.0%
+  Modern FP use: 42.6%
+  Unmet FP need: 13.2%
+  Institutional births: 78.6%
+  Full vaccination: 40.1%
+  Child stunting: 32.6%
+  Women anaemic: 43.3%
+  Improved sanitation: 78.5%
+  Clean fuel: 49.1%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [170], Unmet FP Need % [138]
+  Well below avg (<85): Adolescent Fertility % [65], Child Marriage % [66], Health Insurance % [69], ANC 4+ Visits % [71], Women Anaemia % [77], Modern FP Use % [78], Underweight Children % [80]
+",
+"## Cluster 0: ""Transitional Highlands with Unfinished Foundations""
+
+These 117 districts, spanning Uttar Pradesh and several northeastern states, occupy a **mid-transitional demographic stage**. Women's literacy reaches 77.6% and institutional births 78.6%, signalling meaningful progress beyond early-stage development. However, structural gaps constrain full transition.
+
+**Key characteristics** include relatively low adolescent fertility (4.0%; index 65) and child marriage (13.6%; index 66), suggesting improving gender norms. Full vaccination is strikingly high (index 170), indicating functional immunisation infrastructure. Yet contradictions persist: modern family planning use remains below average (42.6%; index 78) alongside elevated unmet FP need (13.2%; index 138), revealing a demand-supply mismatch in contraceptive services. Women's anaemia (43.3%) and child stunting (32.6%) indicate persistent nutritional deficits undermining human capital formation.
+
+**Demographic dividend potential is moderate but unrealised.** Low child marriage and adolescent fertility create favourable conditions, but inadequate ANC coverage (index 71) and child stunting threaten workforce quality in the next generation.
+
+**Policy priorities:**
+1. **Expand contraceptive access** to close the substantial gap between unmet need and modern FP uptake
+2. **Targeted nutrition interventions** addressing concurrent anaemia in women and stunting in children
+3. **Strengthen antenatal care coverage**, where performance falls critically below the national average",538,347,,0,v2_theory,"CLUSTER 0 — NFHS-5 DISTRICT PROFILE
+Districts: 117 | States: Uttar Pradesh, Arunachal Pradesh, Nagaland, Manipur
+Sample districts: Kolasib, Upper Subansiri, Dimapur, Chandel, East Siang
+
+KEY METRICS (cluster mean values):
+  Women literate: 77.6%
+  Women 10+ yrs schooling: 42.0%
+  Child marriage: 13.6%
+  Adolescent fertility: 4.0%
+  Modern FP use: 42.6%
+  Unmet FP need: 13.2%
+  Institutional births: 78.6%
+  Full vaccination: 40.1%
+  Child stunting: 32.6%
+  Women anaemic: 43.3%
+  Improved sanitation: 78.5%
+  Clean fuel: 49.1%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [170], Unmet FP Need % [138]
+  Well below avg (<85): Adolescent Fertility % [65], Child Marriage % [66], Health Insurance % [69], ANC 4+ Visits % [71], Women Anaemia % [77], Modern FP Use % [78], Underweight Children % [80]
+",
+"```json
+{
+  ""cluster_label"": ""Mid-Transition Northeast and UP Districts"",
+  ""demographic_transition_stage"": ""mid"",
+  ""dividend_potential"": ""moderate"",
+  ""narrative"": ""This cluster of 117 districts spanning Uttar Pradesh and several Northeast states exhibits a mixed demographic profile. Female literacy stands at 77.6% and institutional birth coverage at 78.6%, indicating meaningful foundational progress. Notably, adolescent fertility (index score 65) and child marriage rates (index score 66) are well below the national average, suggesting favourable fertility-related outcomes among young women. However, full vaccination coverage is exceptionally high relative to the national average (index 170), pointing to strong immunisation outreach. Counterbalancing these strengths, unmet family planning need is elevated (index 138), modern contraceptive use is below average (index 78), and women's anaemia prevalence remains substantial at 43.3%. Child stunting at 32.6% and limited clean fuel access (49.1%) indicate persistent nutritional and household environment deficits. Health insurance coverage and antenatal care uptake are also notably below national norms, constraining the pathway to full demographic dividend realisation."",
+  ""policy_priorities"": [
+    ""Priority 1 — Address elevated unmet family planning need (index 138): Despite low adolescent fertility and child marriage, the gap between contraceptive desire and use indicates supply-side or counselling barriers that require targeted service strengthening."",
+    ""Priority 2 — Improve ANC 4+ visit uptake (index 71) and women's anaemia reduction (43.3%): Integrated antenatal care and nutrition supplementation programmes are needed to protect maternal health and reduce the intergenerational transmission of undernutrition."",
+    ""Priority 3 — Expand health insurance coverage (index 69) and clean fuel access (49.1%): Low insurance enrolment limits financial protection for health expenditures, while household air pollution from solid fuels compounds child and maternal health risks.""
+  ],
+  ""strengths"": ""Below-national-average adolescent fertility and child marriage rates indicate favourable reproductive outcomes among young women. Institutional birth coverage (78.6%) and female literacy (77.6%) are solid foundations. Full vaccination coverage is substantially above the national average (index 170), reflecting effective immunisation delivery."",
+  ""challenges"": ""Unmet family planning need is well above average (index 138). Women's anaemia affects 43.3% of women. Child stunting at 32.6% remains high. ANC 4+ coverage (index 71), health insurance (index 69), and clean fuel access (49.1%) are all below national norms, limiting health system protective capacity."",
+  ""confidence"": ""medium"",
+  ""data_gaps"": ""District-level disaggregation by state (Uttar Pradesh vs. Northeast states) would improve characterisation, as these are demographically distinct geographies pooled in one cluster. Data on male education, labour force participation rates, age-dependency ratios, migration patterns, and per-capita income would strengthen dividend potential assessment. Cause-specific anaemia data and contraceptive method mix details would refine family planning priorities."",
+  ""bias_flag"": ""This cluster combines Northeast Indian districts — where low child marriage and adolescent fertility reflect distinct socio-cultural contexts — with Uttar Pradesh districts, which carry different policy narratives. Aggregation risks flattening these differences and may inadvertently reinforce deficit framings of UP while obscuring genuine structural diversity within the Northeast. Descriptions should avoid implying that",596,800,,0,v3_structured,"CLUSTER 0 — NFHS-5 DISTRICT PROFILE
+Districts: 117 | States: Uttar Pradesh, Arunachal Pradesh, Nagaland, Manipur
+Sample districts: Kolasib, Upper Subansiri, Dimapur, Chandel, East Siang
+
+KEY METRICS (cluster mean values):
+  Women literate: 77.6%
+  Women 10+ yrs schooling: 42.0%
+  Child marriage: 13.6%
+  Adolescent fertility: 4.0%
+  Modern FP use: 42.6%
+  Unmet FP need: 13.2%
+  Institutional births: 78.6%
+  Full vaccination: 40.1%
+  Child stunting: 32.6%
+  Women anaemic: 43.3%
+  Improved sanitation: 78.5%
+  Clean fuel: 49.1%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [170], Unmet FP Need % [138]
+  Well below avg (<85): Adolescent Fertility % [65], Child Marriage % [66], Health Insurance % [69], ANC 4+ Visits % [71], Women Anaemia % [77], Modern FP Use % [78], Underweight Children % [80]
+",True
+"## Demographic Profile: High-Burden Districts of Eastern and Central India
+
+These 139 districts, spanning Bihar, Uttar Pradesh, Jharkhand, and Assam, represent a concentration of interconnected demographic and public health challenges relative to the national average.
+
+Child marriage affects more than one in three women (34.5%), at 66% above the national average, and adolescent fertility rates are similarly elevated. Female educational attainment is low, with only 26.4% of women completing ten or more years of schooling — one-third below the national average — and overall female literacy stands at 61.6%.
+
+Nutritional outcomes are poor, with 42.6% of children stunted and nearly two-thirds of women anaemic. Access to clean cooking fuel (33.5%) and improved sanitation (55.7%) remains substantially below national norms. Antenatal care coverage and health insurance enrolment are also well below average.
+
+Notably, institutional birth rates (78.7%) and full vaccination coverage (68.8%) — though above the national index — suggest meaningful gains in basic health service uptake that planning interventions can build upon.",480,255,,1,v1_basic,"CLUSTER 1 — NFHS-5 DISTRICT PROFILE
+Districts: 139 | States: Bihar, Uttar Pradesh, Jharkhand, Assam
+Sample districts: Murshidabad, Deoghar, Saran, Banda, Patna
+
+KEY METRICS (cluster mean values):
+  Women literate: 61.6%
+  Women 10+ yrs schooling: 26.4%
+  Child marriage: 34.5%
+  Adolescent fertility: 10.3%
+  Modern FP use: 46.3%
+  Unmet FP need: 12.3%
+  Institutional births: 78.7%
+  Full vaccination: 68.8%
+  Child stunting: 42.6%
+  Women anaemic: 63.0%
+  Improved sanitation: 55.7%
+  Clean fuel: 33.5%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [292], Child Marriage % [166], Adolescent Fertility % [165], Underweight Children % [131], Unmet FP Need % [129], Stunting % [127], Youth Population % [126]
+  Well below avg (<85): Clean Fuel % [62], Women 10+ Yrs School % [66], ANC 4+ Visits % [69], Improved Sanitation % [78], Health Insurance % [82], Women Literacy % [83], ANC 1st Trimester % [84], Modern FP Use % [85]
+",
+"## Cluster 1 Analysis: Stalled Demographic Transition Districts
+
+**Demographic Transition Stage**
+These 139 districts, concentrated in Bihar, Uttar Pradesh, Jharkhand, and Assam, exhibit characteristics of **early-to-mid demographic transition**, marked by persistently high fertility and significant child undernutrition alongside only partial improvements in institutional care.
+
+**Key Characteristics and Challenges**
+Adolescent fertility (index 165) and child marriage (index 166) are critically elevated, reflecting deeply constrained female agency. Women's educational attainment is severely deficient — only 26.4% have 10+ years of schooling (index 66) against a literacy rate of 61.6% (index 83). Despite moderately high institutional birth rates (78.7%), ANC quality indicators remain weak (ANC 4+ visits index 69; first-trimester registration index 84). Child stunting affects 42.6% of children (index 127), and women's anaemia reaches 63.0%, signalling entrenched nutritional deprivation compounded by poor sanitation access (55.7%) and minimal clean fuel use (33.5%).
+
+**Demographic Dividend Potential**
+The youth population bulge (index 126) represents a potential dividend, but this remains largely unrealisable. Unmet family planning need (index 129) and low women's educational attainment constrain fertility decline, perpetuating high dependency ratios.
+
+**Policy Priorities**
+1. **Girls' secondary education retention**, directly targeting the 10+ years schooling deficit
+2. **Integrated adolescent health programmes** addressing child marriage and early pregnancy simultaneously
+3. **Nutrition-sensitive sanitation and clean fuel expansion** to reduce stunting and anaemia
+
+**Suggested Label:** *High-Burden, Pre-Dividend Districts*",582,415,,1,v2_theory,"CLUSTER 1 — NFHS-5 DISTRICT PROFILE
+Districts: 139 | States: Bihar, Uttar Pradesh, Jharkhand, Assam
+Sample districts: Murshidabad, Deoghar, Saran, Banda, Patna
+
+KEY METRICS (cluster mean values):
+  Women literate: 61.6%
+  Women 10+ yrs schooling: 26.4%
+  Child marriage: 34.5%
+  Adolescent fertility: 10.3%
+  Modern FP use: 46.3%
+  Unmet FP need: 12.3%
+  Institutional births: 78.7%
+  Full vaccination: 68.8%
+  Child stunting: 42.6%
+  Women anaemic: 63.0%
+  Improved sanitation: 55.7%
+  Clean fuel: 33.5%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [292], Child Marriage % [166], Adolescent Fertility % [165], Underweight Children % [131], Unmet FP Need % [129], Stunting % [127], Youth Population % [126]
+  Well below avg (<85): Clean Fuel % [62], Women 10+ Yrs School % [66], ANC 4+ Visits % [69], Improved Sanitation % [78], Health Insurance % [82], Women Literacy % [83], ANC 1st Trimester % [84], Modern FP Use % [85]
+",
+"```json
+{
+  ""cluster_label"": ""High Fertility, Low Education Transition Zone"",
+  ""demographic_transition_stage"": ""early"",
+  ""dividend_potential"": ""emerging"",
+  ""narrative"": ""This cluster of 139 districts across Bihar, Uttar Pradesh, Jharkhand, and Assam exhibits indicators consistent with early demographic transition. Child marriage affects 34.5% of women (index 166 vs national average), adolescent fertility is 65% above the national norm, and women with 10 or more years of schooling reach only 26.4% (index 66). Women's anaemia prevalence is high at 63.0%, and child stunting at 42.6% (index 127) signals persistent nutritional stress. Modern contraceptive use stands at 46.3% alongside a 12.3% unmet need. Institutional birth coverage of 78.7% and full vaccination at 68.8% represent measurable service delivery gains. Clean fuel access (33.5%, index 62) and improved sanitation (55.7%, index 78) remain well below national levels. The cluster's elevated youth population share (index 126) creates a time-limited window for dividend capture contingent on accelerated human capital investment."",
+  ""policy_priorities"": [
+    ""Priority 1 — Girls' secondary education expansion: Women with 10+ years of schooling index at 66, directly constraining age at marriage, fertility timing, and labour force participation; sustained school retention programmes are foundational to transition acceleration."",
+    ""Priority 2 — Child marriage and adolescent reproductive health: An index of 166 for child marriage and 165 for adolescent fertility indicates urgent need for community-based legal enforcement, conditional cash transfers tied to girls' enrolment, and age-appropriate reproductive health services."",
+    ""Priority 3 — Nutrition and anaemia reduction: Women's anaemia at 63.0% and child stunting at 42.6% undermine maternal and child human capital; integrated nutrition supplementation, ANC quality improvement (ANC 4+ visits index 69), and clean fuel transition (index 62) should be addressed concurrently.""
+  ],
+  ""strengths"": ""Institutional birth coverage (78.7%) indicates meaningful progress in facility-based delivery uptake. Full vaccination index of 292 — nearly three times the national average — demonstrates strong immunisation programme reach relative to national norms, providing an existing health system platform for broader intervention."",
+  ""challenges"": ""Child marriage (index 166), adolescent fertility (index 165), women's anaemia (63.0%), child stunting (42.6%), low female education attainment (index 66), high unmet contraceptive need relative to use, and severely limited clean fuel access (index 62) collectively represent compounding barriers to demographic dividend realisation."",
+  ""confidence"": ""medium"",
+  ""data_gaps"": ""District-level labour force participation rates by sex and age cohort; disaggregated data on school dropout reasons for adolescent girls; quality-adjusted ANC metrics beyond visit counts; district-level poverty headcount ratios; caste and tribal sub-group disaggregation within cluster; time-series data to assess rate of change across NFHS rounds; male reproductive health and contraceptive behaviour data."",
+  ""bias_flag"": ""This cluster spans some of India's most populous and historically under-resourced states, risking deficit framing that obscures intra-cluster heterogeneity and state-level policy effort. The vaccination index (292) demonstrates that high deprivation and high programme",640,800,,1,v3_structured,"CLUSTER 1 — NFHS-5 DISTRICT PROFILE
+Districts: 139 | States: Bihar, Uttar Pradesh, Jharkhand, Assam
+Sample districts: Murshidabad, Deoghar, Saran, Banda, Patna
+
+KEY METRICS (cluster mean values):
+  Women literate: 61.6%
+  Women 10+ yrs schooling: 26.4%
+  Child marriage: 34.5%
+  Adolescent fertility: 10.3%
+  Modern FP use: 46.3%
+  Unmet FP need: 12.3%
+  Institutional births: 78.7%
+  Full vaccination: 68.8%
+  Child stunting: 42.6%
+  Women anaemic: 63.0%
+  Improved sanitation: 55.7%
+  Clean fuel: 33.5%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [292], Child Marriage % [166], Adolescent Fertility % [165], Underweight Children % [131], Unmet FP Need % [129], Stunting % [127], Youth Population % [126]
+  Well below avg (<85): Clean Fuel % [62], Women 10+ Yrs School % [66], ANC 4+ Visits % [69], Improved Sanitation % [78], Health Insurance % [82], Women Literacy % [83], ANC 1st Trimester % [84], Modern FP Use % [85]
+",True
+"## Cluster 2: District Demographic Profile — NFHS-5
+
+These 211 districts, spanning Madhya Pradesh, Rajasthan, Gujarat, and Odisha, present a mixed development picture characterised by notable strengths alongside persistent vulnerabilities.
+
+Institutional delivery rates are high at 91.7%, and modern family planning use is reasonably strong at 59.6%, with unmet need comparatively low at 7.9%. Health insurance coverage and full childhood vaccination rates stand well above the national average, with vaccination particularly striking at nearly twice the national benchmark.
+
+However, significant challenges remain. Child marriage affects one in four women (25.0%), running well above the national average. Women's anaemia is widespread at 60.3%, and child stunting affects 34.9% of children. Female educational attainment is limited, with fewer than one in three women completing ten or more years of schooling. Access to clean cooking fuel (46.6%) and improved sanitation (68.5%) remains incomplete.
+
+Planning interventions should prioritise girls' education, nutritional outcomes, and household-level infrastructure access.",407,247,,2,v1_basic,"CLUSTER 2 — NFHS-5 DISTRICT PROFILE
+Districts: 211 | States: Madhya Pradesh, Rajasthan, Gujarat, Odisha
+Sample districts: Baloda Bazar, Udaipur, Baudh, Haveri, Palwal
+
+KEY METRICS (cluster mean values):
+  Women literate: 69.8%
+  Women 10+ yrs schooling: 32.8%
+  Child marriage: 25.0%
+  Adolescent fertility: 7.3%
+  Modern FP use: 59.6%
+  Unmet FP need: 7.9%
+  Institutional births: 91.7%
+  Full vaccination: 46.3%
+  Child stunting: 34.9%
+  Women anaemic: 60.3%
+  Improved sanitation: 68.5%
+  Clean fuel: 46.6%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [197], Health Insurance % [130], Child Marriage % [120], Adolescent Fertility % [116]
+  Well below avg (<85): Women 10+ Yrs School % [82], Unmet FP Need % [82]
+",
+"## Cluster 2: ""Transitioning Mid-Development Districts""
+
+These 211 districts across Madhya Pradesh, Rajasthan, Gujarat, and Odisha occupy a **mid-stage demographic transition**, characterised by declining but still elevated fertility pressures alongside improving health infrastructure uptake.
+
+**Key characteristics** include notably high institutional birth rates (91.7%) and above-average vaccination coverage (index 197), signalling meaningful progress in maternal and child health systems. However, structural vulnerabilities persist: child stunting affects 34.9% of children, women's anaemia remains critically high at 60.3%, and only 32.8% of women achieve ten or more years of schooling. Child marriage at 25.0% (index 120) and adolescent fertility at 7.3% (index 116) remain concerning, compressing women's productive life cycles and perpetuating intergenerational disadvantage.
+
+**Demographic dividend potential is moderate but constrained.** Modern family planning use (59.6%) is reasonable, and unmet FP need is relatively low (index 82), yet educational attainment gaps and persistent child marriage limit women's economic participation — a prerequisite for dividend realisation.
+
+**Priority interventions should target:**
+1. **Girls' secondary education retention** to address the below-average schooling index (82)
+2. **Adolescent nutrition programmes** to reduce anaemia and stunting simultaneously
+3. **Child marriage prevention enforcement** to unlock women's productive potential",509,330,,2,v2_theory,"CLUSTER 2 — NFHS-5 DISTRICT PROFILE
+Districts: 211 | States: Madhya Pradesh, Rajasthan, Gujarat, Odisha
+Sample districts: Baloda Bazar, Udaipur, Baudh, Haveri, Palwal
+
+KEY METRICS (cluster mean values):
+  Women literate: 69.8%
+  Women 10+ yrs schooling: 32.8%
+  Child marriage: 25.0%
+  Adolescent fertility: 7.3%
+  Modern FP use: 59.6%
+  Unmet FP need: 7.9%
+  Institutional births: 91.7%
+  Full vaccination: 46.3%
+  Child stunting: 34.9%
+  Women anaemic: 60.3%
+  Improved sanitation: 68.5%
+  Clean fuel: 46.6%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [197], Health Insurance % [130], Child Marriage % [120], Adolescent Fertility % [116]
+  Well below avg (<85): Women 10+ Yrs School % [82], Unmet FP Need % [82]
+",
+"```json
+{
+  ""cluster_label"": ""Mid-Transition High Institutional Care Districts"",
+  ""demographic_transition_stage"": ""mid"",
+  ""dividend_potential"": ""emerging"",
+  ""narrative"": ""Cluster 2 encompasses 211 districts across Madhya Pradesh, Rajasthan, Gujarat, and Odisha, exhibiting a mixed demographic profile indicative of mid-transition. Institutional birth coverage is notably high at 91.7%, and modern family planning use reaches 59.6%, with unmet need relatively contained at 7.9%. However, structural barriers persist: child marriage affects one in four women (25.0%), adolescent fertility stands at 7.3%, and women with ten or more years of schooling represent only 32.8% — measurably below the national average (index score 82). Women's anaemia prevalence is critically elevated at 60.3%, and full vaccination coverage reaches only 46.3% despite being well above the national average by index, suggesting a low national baseline rather than strong absolute performance. Child stunting at 34.9% and clean fuel access at 46.6% indicate persistent nutrition and household environment deficits that constrain human capital accumulation and the realisable demographic dividend."",
+  ""policy_priorities"": [
+    ""Priority 1 — Girls' secondary education retention: Women with 10+ years of schooling at 32.8% (index 82) is below the national average; expanding secondary school access and conditional support programmes would directly reduce child marriage and adolescent fertility."",
+    ""Priority 2 — Women's anaemia reduction: A prevalence of 60.3% signals severe nutritional risk affecting maternal health, labour productivity, and intergenerational outcomes; targeted supplementation and dietary diversity interventions are indicated."",
+    ""Priority 3 — Child stunting and clean fuel access: Stunting at 34.9% combined with clean fuel access of only 46.6% points to compounding household environment and nutrition deficits; integrated ICDS-linked clean cooking fuel programmes could address both simultaneously.""
+  ],
+  ""strengths"": ""High institutional birth coverage (91.7%), relatively controlled unmet family planning need (7.9%), and modern contraceptive use at 59.6% indicate a functioning reproductive health service platform. Health insurance coverage and child marriage and adolescent fertility index scores above 115 suggest relative improvement against national benchmarks in these areas."",
+  ""challenges"": ""Women's anaemia at 60.3% is critically high. Child stunting at 34.9%, low full vaccination in absolute terms (46.3%), limited clean fuel access (46.6%), a meaningful child marriage rate (25.0%), and below-average female educational attainment (32.8%; index 82) collectively constrain human capital formation and limit dividend realisation."",
+  ""confidence"": ""medium"",
+  ""data_gaps"": ""Age-specific school dropout rates for girls; district-level disaggregation of anaemia by severity; male contraceptive uptake data; household income or consumption quintile distribution; urban-rural disaggregation within the cluster; time-series data to assess direction of change across NFHS rounds; labour force participation rates by sex."",
+  ""bias_flag"": ""Description risks reinforcing a deficit narrative centred on women and girls as passive subjects of poor outcomes. Framing should acknowledge agency, structural determinants (e.g., poverty, infrastructure), and state-level policy variation. Child marriage and anaemia statistics should not be used to generalise cultural characterisations of specific states or communities within this geographically diverse cluster. The index",567,800,,2,v3_structured,"CLUSTER 2 — NFHS-5 DISTRICT PROFILE
+Districts: 211 | States: Madhya Pradesh, Rajasthan, Gujarat, Odisha
+Sample districts: Baloda Bazar, Udaipur, Baudh, Haveri, Palwal
+
+KEY METRICS (cluster mean values):
+  Women literate: 69.8%
+  Women 10+ yrs schooling: 32.8%
+  Child marriage: 25.0%
+  Adolescent fertility: 7.3%
+  Modern FP use: 59.6%
+  Unmet FP need: 7.9%
+  Institutional births: 91.7%
+  Full vaccination: 46.3%
+  Child stunting: 34.9%
+  Women anaemic: 60.3%
+  Improved sanitation: 68.5%
+  Clean fuel: 46.6%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Full Vaccination % [197], Health Insurance % [130], Child Marriage % [120], Adolescent Fertility % [116]
+  Well below avg (<85): Women 10+ Yrs School % [82], Unmet FP Need % [82]
+",True
+"## Cluster 3 District Profile — NFHS-5 Narrative
+
+These 227 districts, spanning Tamil Nadu, Karnataka, Haryana, and Punjab, represent a demographically advanced profile characterised by strong female educational attainment and mature family planning outcomes. With 83.8% of women literate and 53.9% having completed ten or more years of schooling — well above the national average — these districts demonstrate sustained investment in women's education. Child marriage stands at 12.0% and adolescent fertility at 3.9%, both substantially below the national average, reflecting delayed union and childbearing patterns. Modern contraceptive use is high (61.4%), with unmet need correspondingly low at 7.6%. Institutional births are near-universal at 96.6%, supported by strong antenatal care attendance. Clean fuel access (75.2%) and improved sanitation (81.2%) further indicate relatively favourable living conditions. However, women's anaemia remains a significant concern at 54.5%. The notably anomalous full vaccination figure warrants data verification before informing policy conclusions.",433,245,,3,v1_basic,"CLUSTER 3 — NFHS-5 DISTRICT PROFILE
+Districts: 227 | States: Tamil Nadu, Karnataka, Haryana, Punjab
+Sample districts: Chandigarh, Yanam, Daman, Thane, Moga
+
+KEY METRICS (cluster mean values):
+  Women literate: 83.8%
+  Women 10+ yrs schooling: 53.9%
+  Child marriage: 12.0%
+  Adolescent fertility: 3.9%
+  Modern FP use: 61.4%
+  Unmet FP need: 7.6%
+  Institutional births: 96.6%
+  Full vaccination: -33.9%
+  Child stunting: 27.6%
+  Women anaemic: 54.5%
+  Improved sanitation: 81.2%
+  Clean fuel: 75.2%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Clean Fuel % [140], Women 10+ Yrs School % [135], ANC 4+ Visits % [126]
+  Well below avg (<85): Full Vaccination % [-144], Child Marriage % [58], Adolescent Fertility % [63], Unmet FP Need % [79], Underweight Children % [80], Stunting % [82], Youth Population % [83]
+",
+"# Cluster 3 Analysis: Advanced Demographic Transition Districts
+
+## Analytical Narrative
+
+Cluster 3 districts exhibit characteristics of an **advanced demographic transition stage**, evidenced by high female literacy (83.8%), substantial educational attainment (53.9% with 10+ years schooling, indexed at 135), low adolescent fertility (3.9%), and near-universal institutional births (96.6%). Child marriage at 12.0% and unmet family planning need at 7.6% are well below national averages, indicating consolidated reproductive health progress across these 227 districts spanning Tamil Nadu, Karnataka, Haryana, and Punjab.
+
+The demographic dividend potential is moderately constrained. A below-average youth population share (indexed at 83) suggests the working-age bulge may already be maturing, potentially compressing the dividend window. Nevertheless, strong modern contraceptive prevalence (61.4%) and high clean fuel access (75.2%, indexed at 140) support continued human capital accumulation.
+
+Critical development challenges persist. Women's anaemia remains strikingly high at 54.5%, and child stunting at 27.6% (indexed at 82) undermines future workforce productivity. The severely anomalous full vaccination score (−144) represents the cluster's most urgent data concern, warranting verification and immediate programmatic response.
+
+**Policy priorities:** (1) Emergency investigation and remediation of vaccination coverage gaps; (2) Targeted nutritional interventions addressing anaemia and stunting; (3) Secondary-to-tertiary female education pathways to convert literacy gains into labour market participation.
+
+**Cluster Label: ""Transitional Achievers with Persistent Health Gaps""**",535,375,,3,v2_theory,"CLUSTER 3 — NFHS-5 DISTRICT PROFILE
+Districts: 227 | States: Tamil Nadu, Karnataka, Haryana, Punjab
+Sample districts: Chandigarh, Yanam, Daman, Thane, Moga
+
+KEY METRICS (cluster mean values):
+  Women literate: 83.8%
+  Women 10+ yrs schooling: 53.9%
+  Child marriage: 12.0%
+  Adolescent fertility: 3.9%
+  Modern FP use: 61.4%
+  Unmet FP need: 7.6%
+  Institutional births: 96.6%
+  Full vaccination: -33.9%
+  Child stunting: 27.6%
+  Women anaemic: 54.5%
+  Improved sanitation: 81.2%
+  Clean fuel: 75.2%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Clean Fuel % [140], Women 10+ Yrs School % [135], ANC 4+ Visits % [126]
+  Well below avg (<85): Full Vaccination % [-144], Child Marriage % [58], Adolescent Fertility % [63], Unmet FP Need % [79], Underweight Children % [80], Stunting % [82], Youth Population % [83]
+",
+"```json
+{
+  ""cluster_label"": ""Advanced Transition, Persistent Health Gaps"",
+  ""demographic_transition_stage"": ""late"",
+  ""dividend_potential"": ""realised"",
+  ""narrative"": ""Cluster 3 encompasses 227 districts across Tamil Nadu, Karnataka, Haryana, and Punjab, representing one of India's most demographically advanced district groupings. Women's literacy stands at 83.8%, with 53.9% having completed ten or more years of schooling—135 points above the national index average. Child marriage (12.0%) and adolescent fertility (3.9%) are well below national norms, and modern family planning use reaches 61.4% against a low unmet need of 7.6%. Institutional birth coverage is near-universal at 96.6%. However, two indicators warrant serious attention: the full vaccination index score of -144 is anomalous and may reflect data quality or reporting issues requiring verification. Women's anaemia remains high at 54.5%, and child stunting at 27.6% persists despite relatively strong infrastructure access, including 75.2% clean fuel use and 81.2% improved sanitation coverage. The below-average youth population share (index 83) reflects the cluster's advanced fertility transition."",
+  ""policy_priorities"": [
+    ""Priority 1 — Vaccination data audit and coverage remediation: The full vaccination index of -144 is a statistical outlier that either signals a critical immunisation gap or a data quality issue; immediate district-level verification and targeted catch-up campaigns are required before policy conclusions are drawn."",
+    ""Priority 2 — Women's anaemia reduction: With 54.5% of women anaemic despite high literacy and institutional birth coverage, supply-side interventions (iron-folic acid supplementation, dietary diversification programmes) and demand-side awareness within existing health infrastructure should be scaled."",
+    ""Priority 3 — Child stunting elimination: A stunting prevalence of 27.6% in a cluster with strong sanitation and clean fuel access suggests persistent nutrition and feeding practice gaps; integrated nutrition counselling linked to the near-universal institutional delivery platform offers an efficient entry point.""
+  ],
+  ""strengths"": ""High women's literacy (83.8%) and educational attainment (53.9% with 10+ years schooling); near-universal institutional births (96.6%); low child marriage (12.0%) and adolescent fertility (3.9%); high modern contraceptive prevalence (61.4%) and low unmet need (7.6%); strong clean fuel access (75.2%) and improved sanitation (81.2%)."",
+  ""challenges"": ""Full vaccination index score of -144 is anomalous and requires data verification; women's anaemia is high at 54.5%; child stunting at 27.6% is inconsistent with otherwise strong infrastructure indicators, suggesting nutritional practice or service quality gaps not captured by access metrics alone."",
+  ""confidence"": ""medium"",
+  ""data_gaps"": ""District-level vaccination coverage disaggregated by antigen type to diagnose the anomalous score; dietary diversity and feeding practice data to explain the stunting-infrastructure paradox; disaggregated anaemia data by age group and trimester; longitudinal trend data to confirm transition trajectory; urban-rural and intra-state sub-district breakdowns given the cluster spans four heterogeneous states."",
+  ""bias_flag"": ""Framing these districts solely through remaining deficits risks deficit-centric narratives that obscure genuine demographic achievements. The term 'realised dividend' should not",593,800,,3,v3_structured,"CLUSTER 3 — NFHS-5 DISTRICT PROFILE
+Districts: 227 | States: Tamil Nadu, Karnataka, Haryana, Punjab
+Sample districts: Chandigarh, Yanam, Daman, Thane, Moga
+
+KEY METRICS (cluster mean values):
+  Women literate: 83.8%
+  Women 10+ yrs schooling: 53.9%
+  Child marriage: 12.0%
+  Adolescent fertility: 3.9%
+  Modern FP use: 61.4%
+  Unmet FP need: 7.6%
+  Institutional births: 96.6%
+  Full vaccination: -33.9%
+  Child stunting: 27.6%
+  Women anaemic: 54.5%
+  Improved sanitation: 81.2%
+  Clean fuel: 75.2%
+
+INDEX SCORES (100 = national average):
+  Well above avg (>115): Clean Fuel % [140], Women 10+ Yrs School % [135], ANC 4+ Visits % [126]
+  Well below avg (<85): Full Vaccination % [-144], Child Marriage % [58], Adolescent Fertility % [63], Unmet FP Need % [79], Underweight Children % [80], Stunting % [82], Youth Population % [83]
+",True
