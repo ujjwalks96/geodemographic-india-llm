@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <strong>Study Area:</strong> India — 36 States &amp; Union Territories &nbsp;|&nbsp;
+  <strong>Study Area:</strong> India - 36 States &amp; Union Territories &nbsp;|&nbsp;
   <strong>Survey Period:</strong> 2019–2021 &nbsp;|&nbsp;
   <strong>Platform:</strong> Python + Google Colab + Anthropic API
 </p>
@@ -29,7 +29,7 @@
 
 ![Main Figure](outputs/main_figure.png)
 
-> **Can Large Language Models translate complex demographic cluster profiles into accurate, policy-ready narratives — and can we systematically measure the quality and bias of what they produce?**
+> **Can Large Language Models translate complex demographic cluster profiles into accurate, policy-ready narratives- and can we systematically measure the quality and bias of what they produce?**
 
 ---
 
@@ -39,14 +39,14 @@ This repository presents a **reproducible, end-to-end geodemographic intelligenc
 
 The analysis fuses two independently sourced datasets:
 
-- **NFHS-5 (2019–21)**: India's most granular national health survey — 707 districts × 109 indicators spanning fertility, maternal health, child nutrition, women's empowerment, and living standards
+- **NFHS-5 (2019–21)**: India's most granular national health survey - 707 districts × 109 indicators spanning fertility, maternal health, child nutrition, women's empowerment, and living standards
 - **Census 2011 District Boundaries**: Open-source shapefiles for spatial mapping and interactive cartography
 
-The pipeline proceeds in two stages. The first stage applies a standard geodemographic workflow: **Z-score standardisation → PCA → k-means clustering → index score profiling** — to classify districts into four demographically coherent cluster types. The second stage passes each cluster's statistical profile to **Claude (Anthropic API)** using three distinct prompt engineering strategies, generating plain-language narratives that district planners, health officers, and policymakers can directly use.
+The pipeline proceeds in two stages. The first stage applies a standard geodemographic workflow: **Z-score standardisation → PCA → k-means clustering → index score profiling** - to classify districts into four demographically coherent cluster types. The second stage passes each cluster's statistical profile to **Claude (Anthropic API)** using three distinct prompt engineering strategies, generating plain-language narratives that district planners, health officers, and policymakers can directly use.
 
 The project then systematically evaluates LLM output across three dimensions: **semantic consistency** (do the three strategies describe the same demographic reality?), **language bias** (does theoretical grounding reduce deficit framing?), and **factual accuracy** (does the model correctly identify transition stage?).
 
-> 🗺️ **Live District Explorer** — The interactive choropleth map renders as a fully functional district-level portal. Hover over any of the 694 mapped districts to query cluster assignment, transition stage, and key indicator values in real time:
+> 🗺️ **Live District Explorer** - The interactive choropleth map renders as a fully functional district-level portal. Hover over any of the 694 mapped districts to query cluster assignment, transition stage, and key indicator values in real time:
 > **[Open Live Portal →](https://ujjwalks96.github.io/geodemographic-india-llm/outputs/india_geodemographic_interactive.html)**
 
 ---
@@ -82,7 +82,7 @@ This problem is sharpest in low- and middle-income nations, precisely where demo
 - If this cohort is educated, healthy, and employable, the dividend materialises as accelerated economic growth; if not, the window closes unrealised
 - South and Southeast Asia are mid-transition; Sub-Saharan Africa is entering it
 - The policy decisions of the next 10-15 years on girls' education, reproductive health, and child nutrition will determine whether the dividend is captured or squandered
-- Demographic transition is not national — it plays out at district and block level, and national-level data actively masks this heterogeneity
+- Demographic transition is not national - it plays out at district and block level, and national-level data actively masks this heterogeneity
 
 ### India as a Critical Case
 
