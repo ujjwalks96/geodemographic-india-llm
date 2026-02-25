@@ -1,5 +1,4 @@
-# From Numbers to Narratives
-### LLM-Augmented Geodemographic Classification of Demographic Dividend Potential in Indian Districts
+# From Numbers to Narratives: LLM-Augmented Geodemographic Classification of Demographic Dividend Potential in Indian Districts using National Family Health Survey (NFHS)-5, India Dataset
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white"/>
