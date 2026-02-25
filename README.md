@@ -33,7 +33,7 @@
 
 ---
 
-## 1. About This Project
+## About This Project
 
 This repository presents a **reproducible, end-to-end geodemographic intelligence pipeline** that classifies all 707 Indian districts by **demographic dividend potential** and uses Large Language Models to automatically generate policy-ready narratives for each cluster type.
 
