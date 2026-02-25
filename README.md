@@ -20,7 +20,7 @@
 
 <p align="center">
   <strong>Study Area:</strong> India - 36 States &amp; Union Territories &nbsp;|&nbsp;
-  <strong>Survey Period:</strong> 2019–2021 &nbsp;|&nbsp;
+  <strong>Survey Period:</strong> 2019-2021 &nbsp;|&nbsp;
   <strong>Platform:</strong> Python + Google Colab + Anthropic API
 </p>
 
